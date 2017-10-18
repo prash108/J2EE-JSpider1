@@ -19,7 +19,7 @@ public class ViewAllStudentsController extends HttpServlet
 {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+//
 		//int regno=Integer.parseInt(req.getParameter("regno"));
 		//String password=req.getParameter("passwd");
 		//String isChecked=req.getParameter("rememberme");
