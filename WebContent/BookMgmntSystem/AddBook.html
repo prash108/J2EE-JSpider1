@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Book</title>
+<style>
+body {
+	text-align: center;
+}
+
+.button {
+	font-weight: bold;
+}
+
+table {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>
+		<i><u>Book Management System</u></i>
+	</h2>
+	<form action="#" method="post">
+		<table border="2px" align="center" bgcolor="red">
+			<tr>
+				<th>Book Name</th>
+				<td><input type="text" name="bookName"></td>
+			</tr>
+			<tr>
+				<th>Book Price</th>
+				<td><input type="text" name="bookPrice"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="submit" class="button"
+					value="Add Book"></th>
+			</tr>
+		</table>
+		<input type="hidden" name="action" value="addBook">
+	</form>
+	<h4>
+		<a href="#">GO TO HOMEPAGE</a>
+	</h4>
+</body>
+</html>

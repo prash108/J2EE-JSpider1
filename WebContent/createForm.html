@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Students Details</title>
+</head>
+<body>
+	<form action="http://localhost:8080/studentsApp/FormExampleServlet" method="post">
+		<fieldset width="400px" hight="800px">
+			<legend>Students Details</legend>
+
+			<table border="1" bgcolor="red" align="center">
+				<h1 align="center">StudentsDetails</h1>
+				<tr>
+					<td>My Name is :</td>
+					<td><input type="name" name="name" placeholder="           "></td>
+				</tr>
+				<tr>
+					<td>My Password is :</td>
+					<td><input type="password" name="password" placeholder="        "></td>
+				</tr>
+				<tr>
+					<td>My Gender is :</td>
+					<td>Female <input type="radio" name="Gender" value="Female"></td>
+				<tr>
+					<td></td>
+					<td>Male <input type="radio" name="Gender" value="Male"></td>
+				</tr>
+				<tr>
+					<td>My Education is :</td>
+					<td><select name="select">
+							<option value="select">.... select.... </option>
+							<option value="EE">  B.E in EE  </option>
+							<option value="Mech"> B.E. in   Mech  </option>
+							<option value="Cse"> B.E. in  Cse  </option>
+							<option value="Ece"> B.E. in  Ece  </option>
+							<option value="It"> B.E. in It  </option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>I know :</td>
+					<td><input type="checkbox" Name="know" value="Core Java">CoreJava</td>
+					<td><input type="checkbox" Name="know" value="MySql">MySql</td>
+					<td><input type="checkbox" Name="know" value="Jdbc">Jdbc</td>
+					<td><input type="checkbox" Name="know" value="Servlet">Servlets</td>
+					<td><input type="checkbox" Name="know" value="Jsp">Jsp</td>
+				</tr>
+				<tr>
+					<td>I Have :</td>
+					<td><select name="Have" multiple>
+							<option value="Bycycle">Bycycle</option>
+							<option value="MotorBike">MotorBike</option>
+							<option value="Car">Car</option>
+							<option value="Tractor">Tractor</option>
+							<option value="Truck">Truck</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>About Me :</td>
+					<td><textarea name="aboutMe" ></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="submit"></td>
+				</tr>
+
+			</table>
+			</form>
+</body>
+</html>

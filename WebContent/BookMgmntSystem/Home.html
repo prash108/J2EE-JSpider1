@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<style>
+body {
+	text-align: center;
+}
+
+.button {
+	font-weight: bold;
+}
+
+table {
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2><u>Book Management System</u></h2>
+	<a href="addBook.jsp">Add Book</a>
+	<form name="myForm1" action="#" method="post">
+		<a href="#" onclick="document.myForm1.submit()">View Book</a> <input
+			type="hidden" name="action" value="viewBook">
+	</form>
+	<form name="myForm2" action="#" method="post">
+		<a href="#" onclick="document.myForm2.submit()">Search Book</a> <input
+			type="hidden" name="action" value="searchBook">
+	</form>
+	<form name="myForm3" action="#" method="post">
+		<a href="#" onclick="document.myForm3.submit()">Update Book</a> <input
+			type="hidden" name="action" value="updateBook">
+	</form>
+	<form name="myForm4" action="#" method="post">
+		<a href="#" onclick="document.myForm4.submit()">Delete Book</a> <input
+			type="hidden" name="action" value="deleteBook">
+	</form>
+	<h4><a href="home.jsp">GO TO HOMEPAGE</a></h4>
+	
+</body>
+</html>

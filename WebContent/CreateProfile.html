@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Profile</title>
+</head>
+<body>
+	<form action="http://localhost:8080/studentsApp/CreateProfileServlet" method="post">
+		<fieldset width="400px" hight="800px">
+			<legend>Students Profile Creation form</legend>
+
+			<table border="1" bgcolor="red" align="center">
+				<h1 align="center">StudentsDetails</h1>
+
+				<tr>
+					<td>Registration No :</td>
+					<td><input type="text" name="regno" placeholder="Enter RegNo."></td>
+				</tr>
+
+				<tr>
+					<td>First Name :</td>
+					<td><input type="text" name="firstname"
+						placeholder="Enter FirstName"></td>
+				</tr>
+
+				<tr>
+					<td>Middle Name :</td>
+					<td><input type="text" name="middlename"
+						placeholder="Enter MiddleName"></td>
+				</tr>
+				<tr>
+					<td>Last Name :</td>
+					<td><input type="text" name="lastname"
+						placeholder="Enter LastName"></td>
+				</tr>
+				<tr>
+					<td>Guardian First Name :</td>
+					<td><input type="text" name="gfirstname"
+						placeholder="Enter gfirstName"></td>
+				</tr>
+
+				<tr>
+					<td>Guardian middle Name :</td>
+					<td><input type="text" name="gmiddlename"
+						placeholder="Enter gMiddleName"></td>
+				</tr>
+
+				<tr>
+					<td>Guardian Last Name :</td>
+					<td><input type="text" name="glastname"
+						placeholder="Enter glastName"></td>
+				</tr>
+				<tr>
+					<td>Password :</td>
+					<td><input type="password" name="password"
+						placeholder="password"></td>
+				</tr>
+				<tr>
+					<td>Is Admin ?<td>
+					<select name="select">
+					
+						<option value="Y">Y</option>
+						<option value="N">N</option>
+					</select>
+				</tr>
+				<tr>
+					<td><input type="submit" name="login" value="Submit"></td>
+					
+				</tr>
+			</table>
+			</fieldset></form>
+</body>
+</html>
